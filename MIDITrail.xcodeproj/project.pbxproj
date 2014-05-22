@@ -1,0 +1,1154 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A258F3212A684CE0098C86F /* MIDIOUTCfgDlg.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A258F3012A684CE0098C86F /* MIDIOUTCfgDlg.xib */; };
+		1A28D97118767397008E6EDA /* MIDITrail.iconset in Resources */ = {isa = PBXBuildFile; fileRef = 1A28D97018767396008E6EDA /* MIDITrail.iconset */; };
+		1A674ADD14CC4BC600944A09 /* SMEventSysMsg.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1A674ADC14CC4BC600944A09 /* SMEventSysMsg.mm */; };
+		1A674AEF14CC512700944A09 /* SMEventWatcher.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1A674AEE14CC512700944A09 /* SMEventWatcher.mm */; };
+		1A72255312AA07D200745FC9 /* WindowSizeCfgDlg.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A72255112AA07D200745FC9 /* WindowSizeCfgDlg.xib */; };
+		1A72278D12AA7F4400745FC9 /* GraphicCfgDlg.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A72278B12AA7F4400745FC9 /* GraphicCfgDlg.xib */; };
+		1A7227EB12AA933300745FC9 /* HowToViewDlg.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A7227E912AA933300745FC9 /* HowToViewDlg.xib */; };
+		1A7229CA12AB88B600745FC9 /* StatusDlg.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A7229C812AB88B600745FC9 /* StatusDlg.xib */; };
+		1A722CBC12ABD91D00745FC9 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A722CBB12ABD91D00745FC9 /* AudioUnit.framework */; };
+		1A722CC012ABD92600745FC9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A722CBF12ABD92600745FC9 /* AudioToolbox.framework */; };
+		1A722E2F12AD384000745FC9 /* AboutDlg.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A722E2D12AD384000745FC9 /* AboutDlg.xib */; };
+		1AA189F214D82EE100682B1A /* MTPianoKeyboardCtrlLive.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AA189F114D82EE100682B1A /* MTPianoKeyboardCtrlLive.mm */; };
+		1AA19F5714D0394D002FD38F /* MTNoteBoxLive.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AA19F5614D0394D002FD38F /* MTNoteBoxLive.mm */; };
+		1AA327AE14C842120013A57D /* SMInDevCtrl.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AA327AD14C842120013A57D /* SMInDevCtrl.mm */; };
+		1AA327E714C84DCB0013A57D /* SMLiveMonitor.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AA327E614C84DCB0013A57D /* SMLiveMonitor.mm */; };
+		1AA7832A14CD9CA900EEA632 /* MTScenePianoRoll3DLive.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AA7832914CD9CA900EEA632 /* MTScenePianoRoll3DLive.mm */; };
+		1AA870A514CEF2630089E157 /* MTScenePianoRoll2DLive.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AA870A414CEF2630089E157 /* MTScenePianoRoll2DLive.mm */; };
+		1AA870C414CEF3890089E157 /* MTScenePianoRollRainLive.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AA870C314CEF3890089E157 /* MTScenePianoRollRainLive.mm */; };
+		1AABD08D12C73BFA0032D9EF /* doc in Resources */ = {isa = PBXBuildFile; fileRef = 1AABD07612C73BFA0032D9EF /* doc */; };
+		1AACB3CD14D6D3AF00BA19B0 /* MTNoteRainLive.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AACB3CC14D6D3AF00BA19B0 /* MTNoteRainLive.mm */; };
+		1AB0DBDA14DE20C700B7C1E4 /* MIDIINCfgDlg.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AB0DBD814DE20C700B7C1E4 /* MIDIINCfgDlg.xib */; };
+		1AB0DBE314DE27C100B7C1E4 /* MTMIDIINCfgDlg.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AB0DBE214DE27C100B7C1E4 /* MTMIDIINCfgDlg.mm */; };
+		1AB37E8712C753EE001168EF /* OGLCamera.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AB37E6F12C753EE001168EF /* OGLCamera.mm */; };
+		1AB37E8812C753EE001168EF /* OGLColorUtil.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AB37E7112C753EE001168EF /* OGLColorUtil.mm */; };
+		1AB37E8912C753EE001168EF /* OGLDevice.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AB37E7312C753EE001168EF /* OGLDevice.mm */; };
+		1AB37E8A12C753EE001168EF /* OGLDirLight.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AB37E7512C753EE001168EF /* OGLDirLight.mm */; };
+		1AB37E8B12C753EE001168EF /* OGLH.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AB37E7712C753EE001168EF /* OGLH.mm */; };
+		1AB37E8C12C753EE001168EF /* OGLPrimitive.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AB37E7912C753EE001168EF /* OGLPrimitive.mm */; };
+		1AB37E8D12C753EE001168EF /* OGLRenderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AB37E7B12C753EE001168EF /* OGLRenderer.mm */; };
+		1AB37E8E12C753EE001168EF /* OGLRendererInfo.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AB37E7D12C753EE001168EF /* OGLRendererInfo.mm */; };
+		1AB37E8F12C753EE001168EF /* OGLScene.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AB37E7F12C753EE001168EF /* OGLScene.mm */; };
+		1AB37E9012C753EE001168EF /* OGLTexture.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AB37E8112C753EE001168EF /* OGLTexture.mm */; };
+		1AB37E9112C753EE001168EF /* OGLTransMatrix.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AB37E8312C753EE001168EF /* OGLTransMatrix.mm */; };
+		1AB37E9212C753EE001168EF /* OGLTypes.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AB37E8512C753EE001168EF /* OGLTypes.mm */; };
+		1ABBE71514D38ED9004D97DF /* MTGridBoxLive.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1ABBE71414D38ED9004D97DF /* MTGridBoxLive.mm */; };
+		1ABBE77614D39739004D97DF /* MTDashboardLive.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1ABBE77514D39739004D97DF /* MTDashboardLive.mm */; };
+		1ABD49CF14E160CE0054C172 /* SMDevInfo.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1ABD49CE14E160CE0054C172 /* SMDevInfo.mm */; };
+		1AD21297185C3D9A009D1174 /* MTScenePianoRollRain2D.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AD21294185C3D9A009D1174 /* MTScenePianoRollRain2D.mm */; };
+		1AD21298185C3D9A009D1174 /* MTScenePianoRollRain2DLive.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AD21296185C3D9A009D1174 /* MTScenePianoRollRain2DLive.mm */; };
+		1AD6B2B612BD444C00E23EDF /* MIDITrail.icns in Resources */ = {isa = PBXBuildFile; fileRef = 1AD6B2B512BD444C00E23EDF /* MIDITrail.icns */; };
+		1AE63FDD12993C9A00A829CC /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE63FDC12993C9A00A829CC /* CoreAudio.framework */; };
+		1AE63FDF12993C9A00A829CC /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE63FDE12993C9A00A829CC /* CoreMIDI.framework */; };
+		1AE63FE112993C9A00A829CC /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE63FE012993C9A00A829CC /* OpenGL.framework */; };
+		1AE641421299766900A829CC /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AE641401299766900A829CC /* MainWindow.xib */; };
+		1AFFB85112B3D84A00C4DF55 /* YNConfFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB84612B3D84A00C4DF55 /* YNConfFile.m */; };
+		1AFFB85212B3D84A00C4DF55 /* YNErrCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB84812B3D84A00C4DF55 /* YNErrCtrl.m */; };
+		1AFFB85312B3D84A00C4DF55 /* YNErrInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB84A12B3D84A00C4DF55 /* YNErrInfo.m */; };
+		1AFFB85412B3D84A00C4DF55 /* YNINIFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB84C12B3D84A00C4DF55 /* YNINIFile.m */; };
+		1AFFB85512B3D84A00C4DF55 /* YNPathUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB84E12B3D84A00C4DF55 /* YNPathUtil.m */; };
+		1AFFB85612B3D84A00C4DF55 /* YNUserConf.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB85012B3D84A00C4DF55 /* YNUserConf.m */; };
+		1AFFB88212B3D85800C4DF55 /* SMAppleDLSDevCtrl.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB85812B3D85800C4DF55 /* SMAppleDLSDevCtrl.mm */; };
+		1AFFB88312B3D85800C4DF55 /* SMBarList.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB85A12B3D85800C4DF55 /* SMBarList.mm */; };
+		1AFFB88412B3D85800C4DF55 /* SMEvent.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB85D12B3D85800C4DF55 /* SMEvent.mm */; };
+		1AFFB88512B3D85800C4DF55 /* SMEventMeta.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB85F12B3D85800C4DF55 /* SMEventMeta.mm */; };
+		1AFFB88612B3D85800C4DF55 /* SMEventMIDI.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB86112B3D85800C4DF55 /* SMEventMIDI.mm */; };
+		1AFFB88712B3D85800C4DF55 /* SMEventSysEx.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB86312B3D85800C4DF55 /* SMEventSysEx.mm */; };
+		1AFFB88812B3D85800C4DF55 /* SMFileReader.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB86512B3D85800C4DF55 /* SMFileReader.mm */; };
+		1AFFB88A12B3D85800C4DF55 /* SMIDILib.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB86912B3D85800C4DF55 /* SMIDILib.mm */; };
+		1AFFB88B12B3D85800C4DF55 /* SMMsgParser.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB86B12B3D85800C4DF55 /* SMMsgParser.mm */; };
+		1AFFB88C12B3D85800C4DF55 /* SMMsgQueue.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB86D12B3D85800C4DF55 /* SMMsgQueue.mm */; };
+		1AFFB88D12B3D85800C4DF55 /* SMMsgTransmitter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB86F12B3D85800C4DF55 /* SMMsgTransmitter.mm */; };
+		1AFFB88E12B3D85800C4DF55 /* SMNoteList.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB87112B3D85800C4DF55 /* SMNoteList.mm */; };
+		1AFFB88F12B3D85800C4DF55 /* SMOutDevCtrl.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB87312B3D85800C4DF55 /* SMOutDevCtrl.mm */; };
+		1AFFB89012B3D85800C4DF55 /* SMOutDevCtrlEx.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB87512B3D85800C4DF55 /* SMOutDevCtrlEx.mm */; };
+		1AFFB89112B3D85800C4DF55 /* SMPortList.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB87712B3D85800C4DF55 /* SMPortList.mm */; };
+		1AFFB89312B3D85800C4DF55 /* SMSeqData.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB87B12B3D85800C4DF55 /* SMSeqData.mm */; };
+		1AFFB89412B3D85800C4DF55 /* SMSequencer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB87D12B3D85800C4DF55 /* SMSequencer.mm */; };
+		1AFFB89512B3D85800C4DF55 /* SMSimpleList.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB87F12B3D85800C4DF55 /* SMSimpleList.mm */; };
+		1AFFB89612B3D85800C4DF55 /* SMTrack.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB88112B3D85800C4DF55 /* SMTrack.mm */; };
+		1AFFB91112B3D87E00C4DF55 /* DIKeyCtrl.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB8BA12B3D87E00C4DF55 /* DIKeyCtrl.mm */; };
+		1AFFB91212B3D87E00C4DF55 /* DIMouseCtrl.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB8BD12B3D87E00C4DF55 /* DIMouseCtrl.mm */; };
+		1AFFB91312B3D87E00C4DF55 /* MIDITrailApp.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB8BF12B3D87E00C4DF55 /* MIDITrailApp.mm */; };
+		1AFFB91412B3D87E00C4DF55 /* MIDITrailAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB8C112B3D87E00C4DF55 /* MIDITrailAppDelegate.mm */; };
+		1AFFB91512B3D87E00C4DF55 /* MTAboutDlg.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB8C312B3D87E00C4DF55 /* MTAboutDlg.mm */; };
+		1AFFB91612B3D87E00C4DF55 /* MTCmdLineParser.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB8C512B3D87E00C4DF55 /* MTCmdLineParser.mm */; };
+		1AFFB91712B3D87E00C4DF55 /* MTConfFile.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB8C712B3D87E00C4DF55 /* MTConfFile.mm */; };
+		1AFFB91812B3D87E00C4DF55 /* MTDashboard.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB8C912B3D87E00C4DF55 /* MTDashboard.mm */; };
+		1AFFB91912B3D87E00C4DF55 /* MTDynamicCaption.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB8CB12B3D87E00C4DF55 /* MTDynamicCaption.mm */; };
+		1AFFB91A12B3D87E00C4DF55 /* MTFileOpenPanel.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB8CD12B3D87E00C4DF55 /* MTFileOpenPanel.mm */; };
+		1AFFB91B12B3D87E00C4DF55 /* MTFirstPersonCam.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB8CF12B3D87E00C4DF55 /* MTFirstPersonCam.mm */; };
+		1AFFB91C12B3D87E00C4DF55 /* MTFontTexture.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB8D112B3D87E00C4DF55 /* MTFontTexture.mm */; };
+		1AFFB91D12B3D87E00C4DF55 /* MTGraphicCfgDlg.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB8D312B3D87E00C4DF55 /* MTGraphicCfgDlg.mm */; };
+		1AFFB91E12B3D87E00C4DF55 /* MTGridBox.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB8D512B3D87E00C4DF55 /* MTGridBox.mm */; };
+		1AFFB91F12B3D87E00C4DF55 /* MTHowToViewDlg.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB8D712B3D87E00C4DF55 /* MTHowToViewDlg.mm */; };
+		1AFFB92012B3D87E00C4DF55 /* MTLogo.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB8D912B3D87E00C4DF55 /* MTLogo.mm */; };
+		1AFFB92112B3D87E00C4DF55 /* MTMachTime.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB8DB12B3D87E00C4DF55 /* MTMachTime.mm */; };
+		1AFFB92212B3D87E00C4DF55 /* MTMainView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB8DD12B3D87E00C4DF55 /* MTMainView.mm */; };
+		1AFFB92312B3D87E00C4DF55 /* MTMainWindowCtrl.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB8DF12B3D87E00C4DF55 /* MTMainWindowCtrl.mm */; };
+		1AFFB92412B3D87E00C4DF55 /* MTMenuCtrl.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB8E112B3D87E00C4DF55 /* MTMenuCtrl.mm */; };
+		1AFFB92512B3D87E00C4DF55 /* MTMIDIOUTCfgDlg.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB8E312B3D87E00C4DF55 /* MTMIDIOUTCfgDlg.mm */; };
+		1AFFB92612B3D87E00C4DF55 /* MTNoteBox.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB8E512B3D87E00C4DF55 /* MTNoteBox.mm */; };
+		1AFFB92712B3D87E00C4DF55 /* MTNoteDesign.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB8E712B3D87E00C4DF55 /* MTNoteDesign.mm */; };
+		1AFFB92812B3D87E00C4DF55 /* MTNotePitchBend.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB8E912B3D87E00C4DF55 /* MTNotePitchBend.mm */; };
+		1AFFB92912B3D87E00C4DF55 /* MTNoteRain.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB8EB12B3D87E00C4DF55 /* MTNoteRain.mm */; };
+		1AFFB92A12B3D87E00C4DF55 /* MTNoteRipple.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB8ED12B3D87E00C4DF55 /* MTNoteRipple.mm */; };
+		1AFFB92B12B3D87E00C4DF55 /* MTPianoKeyboard.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB8F012B3D87E00C4DF55 /* MTPianoKeyboard.mm */; };
+		1AFFB92C12B3D87E00C4DF55 /* MTPianoKeyboardCtrl.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB8F212B3D87E00C4DF55 /* MTPianoKeyboardCtrl.mm */; };
+		1AFFB92D12B3D87E00C4DF55 /* MTPianoKeyboardDesign.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB8F412B3D87E00C4DF55 /* MTPianoKeyboardDesign.mm */; };
+		1AFFB92E12B3D87E00C4DF55 /* MTPictBoard.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB8F612B3D87E00C4DF55 /* MTPictBoard.mm */; };
+		1AFFB92F12B3D87E00C4DF55 /* MTScene.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB8F812B3D87E00C4DF55 /* MTScene.mm */; };
+		1AFFB93012B3D87E00C4DF55 /* MTSceneMsg.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB8FA12B3D87E00C4DF55 /* MTSceneMsg.mm */; };
+		1AFFB93112B3D87E00C4DF55 /* MTSceneMsgQueue.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB8FC12B3D87E00C4DF55 /* MTSceneMsgQueue.mm */; };
+		1AFFB93212B3D87E00C4DF55 /* MTScenePianoRoll2D.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB8FE12B3D87E00C4DF55 /* MTScenePianoRoll2D.mm */; };
+		1AFFB93312B3D87E00C4DF55 /* MTScenePianoRoll3D.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB90012B3D87E00C4DF55 /* MTScenePianoRoll3D.mm */; };
+		1AFFB93412B3D87E00C4DF55 /* MTScenePianoRollRain.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB90212B3D87E00C4DF55 /* MTScenePianoRollRain.mm */; };
+		1AFFB93512B3D87E00C4DF55 /* MTSceneTitle.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB90412B3D87E00C4DF55 /* MTSceneTitle.mm */; };
+		1AFFB93612B3D87E00C4DF55 /* MTStars.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB90612B3D87E00C4DF55 /* MTStars.mm */; };
+		1AFFB93712B3D87E00C4DF55 /* MTStaticCaption.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB90812B3D87E00C4DF55 /* MTStaticCaption.mm */; };
+		1AFFB93812B3D87E00C4DF55 /* MTStatusDlg.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB90A12B3D87E00C4DF55 /* MTStatusDlg.mm */; };
+		1AFFB93912B3D87E00C4DF55 /* MTStringEncodingList.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB90C12B3D87E00C4DF55 /* MTStringEncodingList.mm */; };
+		1AFFB93A12B3D87E00C4DF55 /* MTTimeIndicator.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB90E12B3D87E00C4DF55 /* MTTimeIndicator.mm */; };
+		1AFFB93B12B3D87E00C4DF55 /* MTWindowSizeCfgDlg.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB91012B3D87E00C4DF55 /* MTWindowSizeCfgDlg.mm */; };
+		1AFFBA1212B3E32000C4DF55 /* conf in Resources */ = {isa = PBXBuildFile; fileRef = 1AFFBA0D12B3E32000C4DF55 /* conf */; };
+		1AFFBA1B12B3E33200C4DF55 /* data in Resources */ = {isa = PBXBuildFile; fileRef = 1AFFBA1312B3E33200C4DF55 /* data */; };
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1A258F3112A684CE0098C86F /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MIDIOUTCfgDlg.xib; sourceTree = "<group>"; };
+		1A28D97018767396008E6EDA /* MIDITrail.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; name = MIDITrail.iconset; path = Resources/MIDITrail.iconset; sourceTree = "<group>"; };
+		1A674ADB14CC4BC600944A09 /* SMEventSysMsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMEventSysMsg.h; path = Sources/SMIDILib/SMEventSysMsg.h; sourceTree = "<group>"; };
+		1A674ADC14CC4BC600944A09 /* SMEventSysMsg.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = SMEventSysMsg.mm; path = Sources/SMIDILib/SMEventSysMsg.mm; sourceTree = "<group>"; };
+		1A674AED14CC512700944A09 /* SMEventWatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMEventWatcher.h; path = Sources/SMIDILib/SMEventWatcher.h; sourceTree = "<group>"; };
+		1A674AEE14CC512700944A09 /* SMEventWatcher.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = SMEventWatcher.mm; path = Sources/SMIDILib/SMEventWatcher.mm; sourceTree = "<group>"; };
+		1A72255212AA07D200745FC9 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/WindowSizeCfgDlg.xib; sourceTree = "<group>"; };
+		1A72278C12AA7F4400745FC9 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/GraphicCfgDlg.xib; sourceTree = "<group>"; };
+		1A7227EA12AA933300745FC9 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/HowToViewDlg.xib; sourceTree = "<group>"; };
+		1A7229C912AB88B600745FC9 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/StatusDlg.xib; sourceTree = "<group>"; };
+		1A722CBB12ABD91D00745FC9 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		1A722CBF12ABD92600745FC9 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		1A722E2E12AD384000745FC9 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/AboutDlg.xib; sourceTree = "<group>"; };
+		1AA189F014D82EE100682B1A /* MTPianoKeyboardCtrlLive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = MTPianoKeyboardCtrlLive.h; path = Sources/MIDITrail/MTPianoKeyboardCtrlLive.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1AA189F114D82EE100682B1A /* MTPianoKeyboardCtrlLive.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; lineEnding = 0; name = MTPianoKeyboardCtrlLive.mm; path = Sources/MIDITrail/MTPianoKeyboardCtrlLive.mm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1AA19F5514D0394D002FD38F /* MTNoteBoxLive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = MTNoteBoxLive.h; path = Sources/MIDITrail/MTNoteBoxLive.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1AA19F5614D0394D002FD38F /* MTNoteBoxLive.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; lineEnding = 0; name = MTNoteBoxLive.mm; path = Sources/MIDITrail/MTNoteBoxLive.mm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1AA327AC14C842120013A57D /* SMInDevCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMInDevCtrl.h; path = Sources/SMIDILib/SMInDevCtrl.h; sourceTree = "<group>"; };
+		1AA327AD14C842120013A57D /* SMInDevCtrl.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = SMInDevCtrl.mm; path = Sources/SMIDILib/SMInDevCtrl.mm; sourceTree = "<group>"; };
+		1AA327E514C84DCB0013A57D /* SMLiveMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMLiveMonitor.h; path = Sources/SMIDILib/SMLiveMonitor.h; sourceTree = "<group>"; };
+		1AA327E614C84DCB0013A57D /* SMLiveMonitor.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = SMLiveMonitor.mm; path = Sources/SMIDILib/SMLiveMonitor.mm; sourceTree = "<group>"; };
+		1AA7832814CD9CA900EEA632 /* MTScenePianoRoll3DLive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTScenePianoRoll3DLive.h; path = Sources/MIDITrail/MTScenePianoRoll3DLive.h; sourceTree = "<group>"; };
+		1AA7832914CD9CA900EEA632 /* MTScenePianoRoll3DLive.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = MTScenePianoRoll3DLive.mm; path = Sources/MIDITrail/MTScenePianoRoll3DLive.mm; sourceTree = "<group>"; };
+		1AA870A314CEF2630089E157 /* MTScenePianoRoll2DLive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTScenePianoRoll2DLive.h; path = Sources/MIDITrail/MTScenePianoRoll2DLive.h; sourceTree = "<group>"; };
+		1AA870A414CEF2630089E157 /* MTScenePianoRoll2DLive.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = MTScenePianoRoll2DLive.mm; path = Sources/MIDITrail/MTScenePianoRoll2DLive.mm; sourceTree = "<group>"; };
+		1AA870C214CEF3890089E157 /* MTScenePianoRollRainLive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTScenePianoRollRainLive.h; path = Sources/MIDITrail/MTScenePianoRollRainLive.h; sourceTree = "<group>"; };
+		1AA870C314CEF3890089E157 /* MTScenePianoRollRainLive.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = MTScenePianoRollRainLive.mm; path = Sources/MIDITrail/MTScenePianoRollRainLive.mm; sourceTree = "<group>"; };
+		1AABD07612C73BFA0032D9EF /* doc */ = {isa = PBXFileReference; lastKnownFileType = folder; name = doc; path = Resources/doc; sourceTree = "<group>"; };
+		1AACB3CB14D6D3AF00BA19B0 /* MTNoteRainLive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = MTNoteRainLive.h; path = Sources/MIDITrail/MTNoteRainLive.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1AACB3CC14D6D3AF00BA19B0 /* MTNoteRainLive.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; lineEnding = 0; name = MTNoteRainLive.mm; path = Sources/MIDITrail/MTNoteRainLive.mm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1AB0DBD914DE20C700B7C1E4 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MIDIINCfgDlg.xib; sourceTree = "<group>"; };
+		1AB0DBE114DE27C100B7C1E4 /* MTMIDIINCfgDlg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTMIDIINCfgDlg.h; path = Sources/MIDITrail/MTMIDIINCfgDlg.h; sourceTree = "<group>"; };
+		1AB0DBE214DE27C100B7C1E4 /* MTMIDIINCfgDlg.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = MTMIDIINCfgDlg.mm; path = Sources/MIDITrail/MTMIDIINCfgDlg.mm; sourceTree = "<group>"; };
+		1AB37E6E12C753EE001168EF /* OGLCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OGLCamera.h; path = Sources/OGLUtility/OGLCamera.h; sourceTree = "<group>"; };
+		1AB37E6F12C753EE001168EF /* OGLCamera.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = OGLCamera.mm; path = Sources/OGLUtility/OGLCamera.mm; sourceTree = "<group>"; };
+		1AB37E7012C753EE001168EF /* OGLColorUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OGLColorUtil.h; path = Sources/OGLUtility/OGLColorUtil.h; sourceTree = "<group>"; };
+		1AB37E7112C753EE001168EF /* OGLColorUtil.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = OGLColorUtil.mm; path = Sources/OGLUtility/OGLColorUtil.mm; sourceTree = "<group>"; };
+		1AB37E7212C753EE001168EF /* OGLDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OGLDevice.h; path = Sources/OGLUtility/OGLDevice.h; sourceTree = "<group>"; };
+		1AB37E7312C753EE001168EF /* OGLDevice.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = OGLDevice.mm; path = Sources/OGLUtility/OGLDevice.mm; sourceTree = "<group>"; };
+		1AB37E7412C753EE001168EF /* OGLDirLight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OGLDirLight.h; path = Sources/OGLUtility/OGLDirLight.h; sourceTree = "<group>"; };
+		1AB37E7512C753EE001168EF /* OGLDirLight.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = OGLDirLight.mm; path = Sources/OGLUtility/OGLDirLight.mm; sourceTree = "<group>"; };
+		1AB37E7612C753EE001168EF /* OGLH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OGLH.h; path = Sources/OGLUtility/OGLH.h; sourceTree = "<group>"; };
+		1AB37E7712C753EE001168EF /* OGLH.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = OGLH.mm; path = Sources/OGLUtility/OGLH.mm; sourceTree = "<group>"; };
+		1AB37E7812C753EE001168EF /* OGLPrimitive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OGLPrimitive.h; path = Sources/OGLUtility/OGLPrimitive.h; sourceTree = "<group>"; };
+		1AB37E7912C753EE001168EF /* OGLPrimitive.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = OGLPrimitive.mm; path = Sources/OGLUtility/OGLPrimitive.mm; sourceTree = "<group>"; };
+		1AB37E7A12C753EE001168EF /* OGLRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OGLRenderer.h; path = Sources/OGLUtility/OGLRenderer.h; sourceTree = "<group>"; };
+		1AB37E7B12C753EE001168EF /* OGLRenderer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = OGLRenderer.mm; path = Sources/OGLUtility/OGLRenderer.mm; sourceTree = "<group>"; };
+		1AB37E7C12C753EE001168EF /* OGLRendererInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OGLRendererInfo.h; path = Sources/OGLUtility/OGLRendererInfo.h; sourceTree = "<group>"; };
+		1AB37E7D12C753EE001168EF /* OGLRendererInfo.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = OGLRendererInfo.mm; path = Sources/OGLUtility/OGLRendererInfo.mm; sourceTree = "<group>"; };
+		1AB37E7E12C753EE001168EF /* OGLScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OGLScene.h; path = Sources/OGLUtility/OGLScene.h; sourceTree = "<group>"; };
+		1AB37E7F12C753EE001168EF /* OGLScene.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = OGLScene.mm; path = Sources/OGLUtility/OGLScene.mm; sourceTree = "<group>"; };
+		1AB37E8012C753EE001168EF /* OGLTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OGLTexture.h; path = Sources/OGLUtility/OGLTexture.h; sourceTree = "<group>"; };
+		1AB37E8112C753EE001168EF /* OGLTexture.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = OGLTexture.mm; path = Sources/OGLUtility/OGLTexture.mm; sourceTree = "<group>"; };
+		1AB37E8212C753EE001168EF /* OGLTransMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OGLTransMatrix.h; path = Sources/OGLUtility/OGLTransMatrix.h; sourceTree = "<group>"; };
+		1AB37E8312C753EE001168EF /* OGLTransMatrix.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = OGLTransMatrix.mm; path = Sources/OGLUtility/OGLTransMatrix.mm; sourceTree = "<group>"; };
+		1AB37E8412C753EE001168EF /* OGLTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OGLTypes.h; path = Sources/OGLUtility/OGLTypes.h; sourceTree = "<group>"; };
+		1AB37E8512C753EE001168EF /* OGLTypes.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = OGLTypes.mm; path = Sources/OGLUtility/OGLTypes.mm; sourceTree = "<group>"; };
+		1AB37E8612C753EE001168EF /* OGLUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OGLUtil.h; path = Sources/OGLUtility/OGLUtil.h; sourceTree = "<group>"; };
+		1AB37E9912C756DD001168EF /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		1AB37E9A12C756DD001168EF /* README.en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.en.txt; sourceTree = "<group>"; };
+		1AB37E9B12C756DD001168EF /* README.ja.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.ja.txt; sourceTree = "<group>"; };
+		1ABBE71314D38ED9004D97DF /* MTGridBoxLive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = MTGridBoxLive.h; path = Sources/MIDITrail/MTGridBoxLive.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1ABBE71414D38ED9004D97DF /* MTGridBoxLive.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; lineEnding = 0; name = MTGridBoxLive.mm; path = Sources/MIDITrail/MTGridBoxLive.mm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1ABBE77414D39739004D97DF /* MTDashboardLive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = MTDashboardLive.h; path = Sources/MIDITrail/MTDashboardLive.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1ABBE77514D39739004D97DF /* MTDashboardLive.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; lineEnding = 0; name = MTDashboardLive.mm; path = Sources/MIDITrail/MTDashboardLive.mm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1ABD49CD14E160CE0054C172 /* SMDevInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMDevInfo.h; path = Sources/SMIDILib/SMDevInfo.h; sourceTree = "<group>"; };
+		1ABD49CE14E160CE0054C172 /* SMDevInfo.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = SMDevInfo.mm; path = Sources/SMIDILib/SMDevInfo.mm; sourceTree = "<group>"; };
+		1AD21293185C3D9A009D1174 /* MTScenePianoRollRain2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTScenePianoRollRain2D.h; path = Sources/MIDITrail/MTScenePianoRollRain2D.h; sourceTree = "<group>"; };
+		1AD21294185C3D9A009D1174 /* MTScenePianoRollRain2D.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = MTScenePianoRollRain2D.mm; path = Sources/MIDITrail/MTScenePianoRollRain2D.mm; sourceTree = "<group>"; };
+		1AD21295185C3D9A009D1174 /* MTScenePianoRollRain2DLive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTScenePianoRollRain2DLive.h; path = Sources/MIDITrail/MTScenePianoRollRain2DLive.h; sourceTree = "<group>"; };
+		1AD21296185C3D9A009D1174 /* MTScenePianoRollRain2DLive.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = MTScenePianoRollRain2DLive.mm; path = Sources/MIDITrail/MTScenePianoRollRain2DLive.mm; sourceTree = "<group>"; };
+		1AD6B2B512BD444C00E23EDF /* MIDITrail.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = MIDITrail.icns; path = Resources/MIDITrail.icns; sourceTree = "<group>"; };
+		1AE23C501861F5FA00592309 /* MIDITrail.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = MIDITrail.entitlements; sourceTree = "<group>"; };
+		1AE63FDC12993C9A00A829CC /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		1AE63FDE12993C9A00A829CC /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
+		1AE63FE012993C9A00A829CC /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		1AE641411299766900A829CC /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		1AFFB84412B3D84A00C4DF55 /* YNBaseLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YNBaseLib.h; path = Sources/YNBaseLib/YNBaseLib.h; sourceTree = "<group>"; };
+		1AFFB84512B3D84A00C4DF55 /* YNConfFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YNConfFile.h; path = Sources/YNBaseLib/YNConfFile.h; sourceTree = "<group>"; };
+		1AFFB84612B3D84A00C4DF55 /* YNConfFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YNConfFile.m; path = Sources/YNBaseLib/YNConfFile.m; sourceTree = "<group>"; };
+		1AFFB84712B3D84A00C4DF55 /* YNErrCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YNErrCtrl.h; path = Sources/YNBaseLib/YNErrCtrl.h; sourceTree = "<group>"; };
+		1AFFB84812B3D84A00C4DF55 /* YNErrCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YNErrCtrl.m; path = Sources/YNBaseLib/YNErrCtrl.m; sourceTree = "<group>"; };
+		1AFFB84912B3D84A00C4DF55 /* YNErrInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YNErrInfo.h; path = Sources/YNBaseLib/YNErrInfo.h; sourceTree = "<group>"; };
+		1AFFB84A12B3D84A00C4DF55 /* YNErrInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YNErrInfo.m; path = Sources/YNBaseLib/YNErrInfo.m; sourceTree = "<group>"; };
+		1AFFB84B12B3D84A00C4DF55 /* YNINIFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YNINIFile.h; path = Sources/YNBaseLib/YNINIFile.h; sourceTree = "<group>"; };
+		1AFFB84C12B3D84A00C4DF55 /* YNINIFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YNINIFile.m; path = Sources/YNBaseLib/YNINIFile.m; sourceTree = "<group>"; };
+		1AFFB84D12B3D84A00C4DF55 /* YNPathUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YNPathUtil.h; path = Sources/YNBaseLib/YNPathUtil.h; sourceTree = "<group>"; };
+		1AFFB84E12B3D84A00C4DF55 /* YNPathUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YNPathUtil.m; path = Sources/YNBaseLib/YNPathUtil.m; sourceTree = "<group>"; };
+		1AFFB84F12B3D84A00C4DF55 /* YNUserConf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YNUserConf.h; path = Sources/YNBaseLib/YNUserConf.h; sourceTree = "<group>"; };
+		1AFFB85012B3D84A00C4DF55 /* YNUserConf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YNUserConf.m; path = Sources/YNBaseLib/YNUserConf.m; sourceTree = "<group>"; };
+		1AFFB85712B3D85800C4DF55 /* SMAppleDLSDevCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAppleDLSDevCtrl.h; path = Sources/SMIDILib/SMAppleDLSDevCtrl.h; sourceTree = "<group>"; };
+		1AFFB85812B3D85800C4DF55 /* SMAppleDLSDevCtrl.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = SMAppleDLSDevCtrl.mm; path = Sources/SMIDILib/SMAppleDLSDevCtrl.mm; sourceTree = "<group>"; };
+		1AFFB85912B3D85800C4DF55 /* SMBarList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMBarList.h; path = Sources/SMIDILib/SMBarList.h; sourceTree = "<group>"; };
+		1AFFB85A12B3D85800C4DF55 /* SMBarList.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = SMBarList.mm; path = Sources/SMIDILib/SMBarList.mm; sourceTree = "<group>"; };
+		1AFFB85B12B3D85800C4DF55 /* SMCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMCommon.h; path = Sources/SMIDILib/SMCommon.h; sourceTree = "<group>"; };
+		1AFFB85C12B3D85800C4DF55 /* SMEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMEvent.h; path = Sources/SMIDILib/SMEvent.h; sourceTree = "<group>"; };
+		1AFFB85D12B3D85800C4DF55 /* SMEvent.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = SMEvent.mm; path = Sources/SMIDILib/SMEvent.mm; sourceTree = "<group>"; };
+		1AFFB85E12B3D85800C4DF55 /* SMEventMeta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMEventMeta.h; path = Sources/SMIDILib/SMEventMeta.h; sourceTree = "<group>"; };
+		1AFFB85F12B3D85800C4DF55 /* SMEventMeta.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = SMEventMeta.mm; path = Sources/SMIDILib/SMEventMeta.mm; sourceTree = "<group>"; };
+		1AFFB86012B3D85800C4DF55 /* SMEventMIDI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMEventMIDI.h; path = Sources/SMIDILib/SMEventMIDI.h; sourceTree = "<group>"; };
+		1AFFB86112B3D85800C4DF55 /* SMEventMIDI.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = SMEventMIDI.mm; path = Sources/SMIDILib/SMEventMIDI.mm; sourceTree = "<group>"; };
+		1AFFB86212B3D85800C4DF55 /* SMEventSysEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMEventSysEx.h; path = Sources/SMIDILib/SMEventSysEx.h; sourceTree = "<group>"; };
+		1AFFB86312B3D85800C4DF55 /* SMEventSysEx.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = SMEventSysEx.mm; path = Sources/SMIDILib/SMEventSysEx.mm; sourceTree = "<group>"; };
+		1AFFB86412B3D85800C4DF55 /* SMFileReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMFileReader.h; path = Sources/SMIDILib/SMFileReader.h; sourceTree = "<group>"; };
+		1AFFB86512B3D85800C4DF55 /* SMFileReader.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = SMFileReader.mm; path = Sources/SMIDILib/SMFileReader.mm; sourceTree = "<group>"; };
+		1AFFB86812B3D85800C4DF55 /* SMIDILib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMIDILib.h; path = Sources/SMIDILib/SMIDILib.h; sourceTree = "<group>"; };
+		1AFFB86912B3D85800C4DF55 /* SMIDILib.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = SMIDILib.mm; path = Sources/SMIDILib/SMIDILib.mm; sourceTree = "<group>"; };
+		1AFFB86A12B3D85800C4DF55 /* SMMsgParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMMsgParser.h; path = Sources/SMIDILib/SMMsgParser.h; sourceTree = "<group>"; };
+		1AFFB86B12B3D85800C4DF55 /* SMMsgParser.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = SMMsgParser.mm; path = Sources/SMIDILib/SMMsgParser.mm; sourceTree = "<group>"; };
+		1AFFB86C12B3D85800C4DF55 /* SMMsgQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMMsgQueue.h; path = Sources/SMIDILib/SMMsgQueue.h; sourceTree = "<group>"; };
+		1AFFB86D12B3D85800C4DF55 /* SMMsgQueue.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = SMMsgQueue.mm; path = Sources/SMIDILib/SMMsgQueue.mm; sourceTree = "<group>"; };
+		1AFFB86E12B3D85800C4DF55 /* SMMsgTransmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMMsgTransmitter.h; path = Sources/SMIDILib/SMMsgTransmitter.h; sourceTree = "<group>"; };
+		1AFFB86F12B3D85800C4DF55 /* SMMsgTransmitter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = SMMsgTransmitter.mm; path = Sources/SMIDILib/SMMsgTransmitter.mm; sourceTree = "<group>"; };
+		1AFFB87012B3D85800C4DF55 /* SMNoteList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMNoteList.h; path = Sources/SMIDILib/SMNoteList.h; sourceTree = "<group>"; };
+		1AFFB87112B3D85800C4DF55 /* SMNoteList.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = SMNoteList.mm; path = Sources/SMIDILib/SMNoteList.mm; sourceTree = "<group>"; };
+		1AFFB87212B3D85800C4DF55 /* SMOutDevCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMOutDevCtrl.h; path = Sources/SMIDILib/SMOutDevCtrl.h; sourceTree = "<group>"; };
+		1AFFB87312B3D85800C4DF55 /* SMOutDevCtrl.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = SMOutDevCtrl.mm; path = Sources/SMIDILib/SMOutDevCtrl.mm; sourceTree = "<group>"; };
+		1AFFB87412B3D85800C4DF55 /* SMOutDevCtrlEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMOutDevCtrlEx.h; path = Sources/SMIDILib/SMOutDevCtrlEx.h; sourceTree = "<group>"; };
+		1AFFB87512B3D85800C4DF55 /* SMOutDevCtrlEx.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = SMOutDevCtrlEx.mm; path = Sources/SMIDILib/SMOutDevCtrlEx.mm; sourceTree = "<group>"; };
+		1AFFB87612B3D85800C4DF55 /* SMPortList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMPortList.h; path = Sources/SMIDILib/SMPortList.h; sourceTree = "<group>"; };
+		1AFFB87712B3D85800C4DF55 /* SMPortList.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = SMPortList.mm; path = Sources/SMIDILib/SMPortList.mm; sourceTree = "<group>"; };
+		1AFFB87A12B3D85800C4DF55 /* SMSeqData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMSeqData.h; path = Sources/SMIDILib/SMSeqData.h; sourceTree = "<group>"; };
+		1AFFB87B12B3D85800C4DF55 /* SMSeqData.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = SMSeqData.mm; path = Sources/SMIDILib/SMSeqData.mm; sourceTree = "<group>"; };
+		1AFFB87C12B3D85800C4DF55 /* SMSequencer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMSequencer.h; path = Sources/SMIDILib/SMSequencer.h; sourceTree = "<group>"; };
+		1AFFB87D12B3D85800C4DF55 /* SMSequencer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = SMSequencer.mm; path = Sources/SMIDILib/SMSequencer.mm; sourceTree = "<group>"; };
+		1AFFB87E12B3D85800C4DF55 /* SMSimpleList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMSimpleList.h; path = Sources/SMIDILib/SMSimpleList.h; sourceTree = "<group>"; };
+		1AFFB87F12B3D85800C4DF55 /* SMSimpleList.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = SMSimpleList.mm; path = Sources/SMIDILib/SMSimpleList.mm; sourceTree = "<group>"; };
+		1AFFB88012B3D85800C4DF55 /* SMTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMTrack.h; path = Sources/SMIDILib/SMTrack.h; sourceTree = "<group>"; };
+		1AFFB88112B3D85800C4DF55 /* SMTrack.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = SMTrack.mm; path = Sources/SMIDILib/SMTrack.mm; sourceTree = "<group>"; };
+		1AFFB8B912B3D87E00C4DF55 /* DIKeyCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DIKeyCtrl.h; path = Sources/MIDITrail/DIKeyCtrl.h; sourceTree = "<group>"; };
+		1AFFB8BA12B3D87E00C4DF55 /* DIKeyCtrl.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = DIKeyCtrl.mm; path = Sources/MIDITrail/DIKeyCtrl.mm; sourceTree = "<group>"; };
+		1AFFB8BB12B3D87E00C4DF55 /* DIKeyDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DIKeyDef.h; path = Sources/MIDITrail/DIKeyDef.h; sourceTree = "<group>"; };
+		1AFFB8BC12B3D87E00C4DF55 /* DIMouseCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DIMouseCtrl.h; path = Sources/MIDITrail/DIMouseCtrl.h; sourceTree = "<group>"; };
+		1AFFB8BD12B3D87E00C4DF55 /* DIMouseCtrl.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = DIMouseCtrl.mm; path = Sources/MIDITrail/DIMouseCtrl.mm; sourceTree = "<group>"; };
+		1AFFB8BE12B3D87E00C4DF55 /* MIDITrailApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 2; name = MIDITrailApp.h; path = Sources/MIDITrail/MIDITrailApp.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1AFFB8BF12B3D87E00C4DF55 /* MIDITrailApp.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; lineEnding = 0; name = MIDITrailApp.mm; path = Sources/MIDITrail/MIDITrailApp.mm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1AFFB8C012B3D87E00C4DF55 /* MIDITrailAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIDITrailAppDelegate.h; path = Sources/MIDITrail/MIDITrailAppDelegate.h; sourceTree = "<group>"; };
+		1AFFB8C112B3D87E00C4DF55 /* MIDITrailAppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = MIDITrailAppDelegate.mm; path = Sources/MIDITrail/MIDITrailAppDelegate.mm; sourceTree = "<group>"; };
+		1AFFB8C212B3D87E00C4DF55 /* MTAboutDlg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTAboutDlg.h; path = Sources/MIDITrail/MTAboutDlg.h; sourceTree = "<group>"; };
+		1AFFB8C312B3D87E00C4DF55 /* MTAboutDlg.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = MTAboutDlg.mm; path = Sources/MIDITrail/MTAboutDlg.mm; sourceTree = "<group>"; };
+		1AFFB8C412B3D87E00C4DF55 /* MTCmdLineParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTCmdLineParser.h; path = Sources/MIDITrail/MTCmdLineParser.h; sourceTree = "<group>"; };
+		1AFFB8C512B3D87E00C4DF55 /* MTCmdLineParser.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = MTCmdLineParser.mm; path = Sources/MIDITrail/MTCmdLineParser.mm; sourceTree = "<group>"; };
+		1AFFB8C612B3D87E00C4DF55 /* MTConfFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = MTConfFile.h; path = Sources/MIDITrail/MTConfFile.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1AFFB8C712B3D87E00C4DF55 /* MTConfFile.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; lineEnding = 0; name = MTConfFile.mm; path = Sources/MIDITrail/MTConfFile.mm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1AFFB8C812B3D87E00C4DF55 /* MTDashboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = MTDashboard.h; path = Sources/MIDITrail/MTDashboard.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1AFFB8C912B3D87E00C4DF55 /* MTDashboard.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; lineEnding = 0; name = MTDashboard.mm; path = Sources/MIDITrail/MTDashboard.mm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1AFFB8CA12B3D87E00C4DF55 /* MTDynamicCaption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = MTDynamicCaption.h; path = Sources/MIDITrail/MTDynamicCaption.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1AFFB8CB12B3D87E00C4DF55 /* MTDynamicCaption.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; lineEnding = 0; name = MTDynamicCaption.mm; path = Sources/MIDITrail/MTDynamicCaption.mm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1AFFB8CC12B3D87E00C4DF55 /* MTFileOpenPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 1; name = MTFileOpenPanel.h; path = Sources/MIDITrail/MTFileOpenPanel.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1AFFB8CD12B3D87E00C4DF55 /* MTFileOpenPanel.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; lineEnding = 1; name = MTFileOpenPanel.mm; path = Sources/MIDITrail/MTFileOpenPanel.mm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1AFFB8CE12B3D87E00C4DF55 /* MTFirstPersonCam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = MTFirstPersonCam.h; path = Sources/MIDITrail/MTFirstPersonCam.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1AFFB8CF12B3D87E00C4DF55 /* MTFirstPersonCam.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; lineEnding = 0; name = MTFirstPersonCam.mm; path = Sources/MIDITrail/MTFirstPersonCam.mm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1AFFB8D012B3D87E00C4DF55 /* MTFontTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = MTFontTexture.h; path = Sources/MIDITrail/MTFontTexture.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1AFFB8D112B3D87E00C4DF55 /* MTFontTexture.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; lineEnding = 0; name = MTFontTexture.mm; path = Sources/MIDITrail/MTFontTexture.mm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1AFFB8D212B3D87E00C4DF55 /* MTGraphicCfgDlg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTGraphicCfgDlg.h; path = Sources/MIDITrail/MTGraphicCfgDlg.h; sourceTree = "<group>"; };
+		1AFFB8D312B3D87E00C4DF55 /* MTGraphicCfgDlg.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = MTGraphicCfgDlg.mm; path = Sources/MIDITrail/MTGraphicCfgDlg.mm; sourceTree = "<group>"; };
+		1AFFB8D412B3D87E00C4DF55 /* MTGridBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = MTGridBox.h; path = Sources/MIDITrail/MTGridBox.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1AFFB8D512B3D87E00C4DF55 /* MTGridBox.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; lineEnding = 0; name = MTGridBox.mm; path = Sources/MIDITrail/MTGridBox.mm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1AFFB8D612B3D87E00C4DF55 /* MTHowToViewDlg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTHowToViewDlg.h; path = Sources/MIDITrail/MTHowToViewDlg.h; sourceTree = "<group>"; };
+		1AFFB8D712B3D87E00C4DF55 /* MTHowToViewDlg.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = MTHowToViewDlg.mm; path = Sources/MIDITrail/MTHowToViewDlg.mm; sourceTree = "<group>"; };
+		1AFFB8D812B3D87E00C4DF55 /* MTLogo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTLogo.h; path = Sources/MIDITrail/MTLogo.h; sourceTree = "<group>"; };
+		1AFFB8D912B3D87E00C4DF55 /* MTLogo.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = MTLogo.mm; path = Sources/MIDITrail/MTLogo.mm; sourceTree = "<group>"; };
+		1AFFB8DA12B3D87E00C4DF55 /* MTMachTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTMachTime.h; path = Sources/MIDITrail/MTMachTime.h; sourceTree = "<group>"; };
+		1AFFB8DB12B3D87E00C4DF55 /* MTMachTime.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = MTMachTime.mm; path = Sources/MIDITrail/MTMachTime.mm; sourceTree = "<group>"; };
+		1AFFB8DC12B3D87E00C4DF55 /* MTMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTMainView.h; path = Sources/MIDITrail/MTMainView.h; sourceTree = "<group>"; };
+		1AFFB8DD12B3D87E00C4DF55 /* MTMainView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = MTMainView.mm; path = Sources/MIDITrail/MTMainView.mm; sourceTree = "<group>"; };
+		1AFFB8DE12B3D87E00C4DF55 /* MTMainWindowCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTMainWindowCtrl.h; path = Sources/MIDITrail/MTMainWindowCtrl.h; sourceTree = "<group>"; };
+		1AFFB8DF12B3D87E00C4DF55 /* MTMainWindowCtrl.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = MTMainWindowCtrl.mm; path = Sources/MIDITrail/MTMainWindowCtrl.mm; sourceTree = "<group>"; };
+		1AFFB8E012B3D87E00C4DF55 /* MTMenuCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTMenuCtrl.h; path = Sources/MIDITrail/MTMenuCtrl.h; sourceTree = "<group>"; };
+		1AFFB8E112B3D87E00C4DF55 /* MTMenuCtrl.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = MTMenuCtrl.mm; path = Sources/MIDITrail/MTMenuCtrl.mm; sourceTree = "<group>"; };
+		1AFFB8E212B3D87E00C4DF55 /* MTMIDIOUTCfgDlg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTMIDIOUTCfgDlg.h; path = Sources/MIDITrail/MTMIDIOUTCfgDlg.h; sourceTree = "<group>"; };
+		1AFFB8E312B3D87E00C4DF55 /* MTMIDIOUTCfgDlg.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = MTMIDIOUTCfgDlg.mm; path = Sources/MIDITrail/MTMIDIOUTCfgDlg.mm; sourceTree = "<group>"; };
+		1AFFB8E412B3D87E00C4DF55 /* MTNoteBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = MTNoteBox.h; path = Sources/MIDITrail/MTNoteBox.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1AFFB8E512B3D87E00C4DF55 /* MTNoteBox.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; lineEnding = 0; name = MTNoteBox.mm; path = Sources/MIDITrail/MTNoteBox.mm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1AFFB8E612B3D87E00C4DF55 /* MTNoteDesign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = MTNoteDesign.h; path = Sources/MIDITrail/MTNoteDesign.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1AFFB8E712B3D87E00C4DF55 /* MTNoteDesign.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; lineEnding = 0; name = MTNoteDesign.mm; path = Sources/MIDITrail/MTNoteDesign.mm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1AFFB8E812B3D87E00C4DF55 /* MTNotePitchBend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTNotePitchBend.h; path = Sources/MIDITrail/MTNotePitchBend.h; sourceTree = "<group>"; };
+		1AFFB8E912B3D87E00C4DF55 /* MTNotePitchBend.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = MTNotePitchBend.mm; path = Sources/MIDITrail/MTNotePitchBend.mm; sourceTree = "<group>"; };
+		1AFFB8EA12B3D87E00C4DF55 /* MTNoteRain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = MTNoteRain.h; path = Sources/MIDITrail/MTNoteRain.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1AFFB8EB12B3D87E00C4DF55 /* MTNoteRain.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; lineEnding = 0; name = MTNoteRain.mm; path = Sources/MIDITrail/MTNoteRain.mm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1AFFB8EC12B3D87E00C4DF55 /* MTNoteRipple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = MTNoteRipple.h; path = Sources/MIDITrail/MTNoteRipple.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1AFFB8ED12B3D87E00C4DF55 /* MTNoteRipple.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; lineEnding = 0; name = MTNoteRipple.mm; path = Sources/MIDITrail/MTNoteRipple.mm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1AFFB8EE12B3D87E00C4DF55 /* MTParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTParam.h; path = Sources/MIDITrail/MTParam.h; sourceTree = "<group>"; };
+		1AFFB8EF12B3D87E00C4DF55 /* MTPianoKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = MTPianoKeyboard.h; path = Sources/MIDITrail/MTPianoKeyboard.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1AFFB8F012B3D87E00C4DF55 /* MTPianoKeyboard.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; lineEnding = 0; name = MTPianoKeyboard.mm; path = Sources/MIDITrail/MTPianoKeyboard.mm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1AFFB8F112B3D87E00C4DF55 /* MTPianoKeyboardCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = MTPianoKeyboardCtrl.h; path = Sources/MIDITrail/MTPianoKeyboardCtrl.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1AFFB8F212B3D87E00C4DF55 /* MTPianoKeyboardCtrl.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; lineEnding = 0; name = MTPianoKeyboardCtrl.mm; path = Sources/MIDITrail/MTPianoKeyboardCtrl.mm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1AFFB8F312B3D87E00C4DF55 /* MTPianoKeyboardDesign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = MTPianoKeyboardDesign.h; path = Sources/MIDITrail/MTPianoKeyboardDesign.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1AFFB8F412B3D87E00C4DF55 /* MTPianoKeyboardDesign.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; lineEnding = 0; name = MTPianoKeyboardDesign.mm; path = Sources/MIDITrail/MTPianoKeyboardDesign.mm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1AFFB8F512B3D87E00C4DF55 /* MTPictBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = MTPictBoard.h; path = Sources/MIDITrail/MTPictBoard.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1AFFB8F612B3D87E00C4DF55 /* MTPictBoard.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; lineEnding = 0; name = MTPictBoard.mm; path = Sources/MIDITrail/MTPictBoard.mm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1AFFB8F712B3D87E00C4DF55 /* MTScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTScene.h; path = Sources/MIDITrail/MTScene.h; sourceTree = "<group>"; };
+		1AFFB8F812B3D87E00C4DF55 /* MTScene.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = MTScene.mm; path = Sources/MIDITrail/MTScene.mm; sourceTree = "<group>"; };
+		1AFFB8F912B3D87E00C4DF55 /* MTSceneMsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTSceneMsg.h; path = Sources/MIDITrail/MTSceneMsg.h; sourceTree = "<group>"; };
+		1AFFB8FA12B3D87E00C4DF55 /* MTSceneMsg.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = MTSceneMsg.mm; path = Sources/MIDITrail/MTSceneMsg.mm; sourceTree = "<group>"; };
+		1AFFB8FB12B3D87E00C4DF55 /* MTSceneMsgQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTSceneMsgQueue.h; path = Sources/MIDITrail/MTSceneMsgQueue.h; sourceTree = "<group>"; };
+		1AFFB8FC12B3D87E00C4DF55 /* MTSceneMsgQueue.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = MTSceneMsgQueue.mm; path = Sources/MIDITrail/MTSceneMsgQueue.mm; sourceTree = "<group>"; };
+		1AFFB8FD12B3D87E00C4DF55 /* MTScenePianoRoll2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTScenePianoRoll2D.h; path = Sources/MIDITrail/MTScenePianoRoll2D.h; sourceTree = "<group>"; };
+		1AFFB8FE12B3D87E00C4DF55 /* MTScenePianoRoll2D.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = MTScenePianoRoll2D.mm; path = Sources/MIDITrail/MTScenePianoRoll2D.mm; sourceTree = "<group>"; };
+		1AFFB8FF12B3D87E00C4DF55 /* MTScenePianoRoll3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTScenePianoRoll3D.h; path = Sources/MIDITrail/MTScenePianoRoll3D.h; sourceTree = "<group>"; };
+		1AFFB90012B3D87E00C4DF55 /* MTScenePianoRoll3D.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = MTScenePianoRoll3D.mm; path = Sources/MIDITrail/MTScenePianoRoll3D.mm; sourceTree = "<group>"; };
+		1AFFB90112B3D87E00C4DF55 /* MTScenePianoRollRain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTScenePianoRollRain.h; path = Sources/MIDITrail/MTScenePianoRollRain.h; sourceTree = "<group>"; };
+		1AFFB90212B3D87E00C4DF55 /* MTScenePianoRollRain.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = MTScenePianoRollRain.mm; path = Sources/MIDITrail/MTScenePianoRollRain.mm; sourceTree = "<group>"; };
+		1AFFB90312B3D87E00C4DF55 /* MTSceneTitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTSceneTitle.h; path = Sources/MIDITrail/MTSceneTitle.h; sourceTree = "<group>"; };
+		1AFFB90412B3D87E00C4DF55 /* MTSceneTitle.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = MTSceneTitle.mm; path = Sources/MIDITrail/MTSceneTitle.mm; sourceTree = "<group>"; };
+		1AFFB90512B3D87E00C4DF55 /* MTStars.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = MTStars.h; path = Sources/MIDITrail/MTStars.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1AFFB90612B3D87E00C4DF55 /* MTStars.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; lineEnding = 0; name = MTStars.mm; path = Sources/MIDITrail/MTStars.mm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1AFFB90712B3D87E00C4DF55 /* MTStaticCaption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = MTStaticCaption.h; path = Sources/MIDITrail/MTStaticCaption.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1AFFB90812B3D87E00C4DF55 /* MTStaticCaption.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; lineEnding = 0; name = MTStaticCaption.mm; path = Sources/MIDITrail/MTStaticCaption.mm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1AFFB90912B3D87E00C4DF55 /* MTStatusDlg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTStatusDlg.h; path = Sources/MIDITrail/MTStatusDlg.h; sourceTree = "<group>"; };
+		1AFFB90A12B3D87E00C4DF55 /* MTStatusDlg.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = MTStatusDlg.mm; path = Sources/MIDITrail/MTStatusDlg.mm; sourceTree = "<group>"; };
+		1AFFB90B12B3D87E00C4DF55 /* MTStringEncodingList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTStringEncodingList.h; path = Sources/MIDITrail/MTStringEncodingList.h; sourceTree = "<group>"; };
+		1AFFB90C12B3D87E00C4DF55 /* MTStringEncodingList.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = MTStringEncodingList.mm; path = Sources/MIDITrail/MTStringEncodingList.mm; sourceTree = "<group>"; };
+		1AFFB90D12B3D87E00C4DF55 /* MTTimeIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = MTTimeIndicator.h; path = Sources/MIDITrail/MTTimeIndicator.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1AFFB90E12B3D87E00C4DF55 /* MTTimeIndicator.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; lineEnding = 0; name = MTTimeIndicator.mm; path = Sources/MIDITrail/MTTimeIndicator.mm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1AFFB90F12B3D87E00C4DF55 /* MTWindowSizeCfgDlg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTWindowSizeCfgDlg.h; path = Sources/MIDITrail/MTWindowSizeCfgDlg.h; sourceTree = "<group>"; };
+		1AFFB91012B3D87E00C4DF55 /* MTWindowSizeCfgDlg.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = MTWindowSizeCfgDlg.mm; path = Sources/MIDITrail/MTWindowSizeCfgDlg.mm; sourceTree = "<group>"; };
+		1AFFBA0D12B3E32000C4DF55 /* conf */ = {isa = PBXFileReference; lastKnownFileType = folder; name = conf; path = Resources/conf; sourceTree = "<group>"; };
+		1AFFBA1312B3E33200C4DF55 /* data */ = {isa = PBXFileReference; lastKnownFileType = folder; name = data; path = Resources/data; sourceTree = "<group>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* MIDITrail_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIDITrail_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		8D1107310486CEB800E47090 /* MIDITrail-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MIDITrail-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* MIDITrail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MIDITrail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				1AE63FDD12993C9A00A829CC /* CoreAudio.framework in Frameworks */,
+				1AE63FDF12993C9A00A829CC /* CoreMIDI.framework in Frameworks */,
+				1AE63FE112993C9A00A829CC /* OpenGL.framework in Frameworks */,
+				1A722CBC12ABD91D00745FC9 /* AudioUnit.framework in Frameworks */,
+				1A722CC012ABD92600745FC9 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1AE63FA912993AE100A829CC /* MIDITrail */,
+				1AE63FA812993AD600A829CC /* OGLUtility */,
+				1AE63FA712993ACD00A829CC /* SMIDILib */,
+				1AE63FA412993A9A00A829CC /* YNBaseLib */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				1AE63FDC12993C9A00A829CC /* CoreAudio.framework */,
+				1AE63FDE12993C9A00A829CC /* CoreMIDI.framework */,
+				1AE63FE012993C9A00A829CC /* OpenGL.framework */,
+				1A722CBB12ABD91D00745FC9 /* AudioUnit.framework */,
+				1A722CBF12ABD92600745FC9 /* AudioToolbox.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* MIDITrail.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A72247B12A947C300745FC9 /* AppMain */ = {
+			isa = PBXGroup;
+			children = (
+				1AFFB8BE12B3D87E00C4DF55 /* MIDITrailApp.h */,
+				1AFFB8BF12B3D87E00C4DF55 /* MIDITrailApp.mm */,
+				1AFFB8C012B3D87E00C4DF55 /* MIDITrailAppDelegate.h */,
+				1AFFB8C112B3D87E00C4DF55 /* MIDITrailAppDelegate.mm */,
+				1AFFB8DC12B3D87E00C4DF55 /* MTMainView.h */,
+				1AFFB8DD12B3D87E00C4DF55 /* MTMainView.mm */,
+				1AFFB8DE12B3D87E00C4DF55 /* MTMainWindowCtrl.h */,
+				1AFFB8DF12B3D87E00C4DF55 /* MTMainWindowCtrl.mm */,
+				1AFFB8E012B3D87E00C4DF55 /* MTMenuCtrl.h */,
+				1AFFB8E112B3D87E00C4DF55 /* MTMenuCtrl.mm */,
+				1AFFB8EE12B3D87E00C4DF55 /* MTParam.h */,
+			);
+			name = AppMain;
+			sourceTree = "<group>";
+		};
+		1A72247C12A947D200745FC9 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				1AFFB8F712B3D87E00C4DF55 /* MTScene.h */,
+				1AFFB8F812B3D87E00C4DF55 /* MTScene.mm */,
+				1AFFB8FD12B3D87E00C4DF55 /* MTScenePianoRoll2D.h */,
+				1AFFB8FE12B3D87E00C4DF55 /* MTScenePianoRoll2D.mm */,
+				1AFFB8FF12B3D87E00C4DF55 /* MTScenePianoRoll3D.h */,
+				1AFFB90012B3D87E00C4DF55 /* MTScenePianoRoll3D.mm */,
+				1AFFB90112B3D87E00C4DF55 /* MTScenePianoRollRain.h */,
+				1AFFB90212B3D87E00C4DF55 /* MTScenePianoRollRain.mm */,
+				1AD21293185C3D9A009D1174 /* MTScenePianoRollRain2D.h */,
+				1AD21294185C3D9A009D1174 /* MTScenePianoRollRain2D.mm */,
+				1AFFB90312B3D87E00C4DF55 /* MTSceneTitle.h */,
+				1AFFB90412B3D87E00C4DF55 /* MTSceneTitle.mm */,
+				1AA7832814CD9CA900EEA632 /* MTScenePianoRoll3DLive.h */,
+				1AA7832914CD9CA900EEA632 /* MTScenePianoRoll3DLive.mm */,
+				1AA870A314CEF2630089E157 /* MTScenePianoRoll2DLive.h */,
+				1AA870A414CEF2630089E157 /* MTScenePianoRoll2DLive.mm */,
+				1AA870C214CEF3890089E157 /* MTScenePianoRollRainLive.h */,
+				1AA870C314CEF3890089E157 /* MTScenePianoRollRainLive.mm */,
+				1AD21295185C3D9A009D1174 /* MTScenePianoRollRain2DLive.h */,
+				1AD21296185C3D9A009D1174 /* MTScenePianoRollRain2DLive.mm */,
+			);
+			name = Scene;
+			sourceTree = "<group>";
+		};
+		1A72247D12A9480D00745FC9 /* DirectInput */ = {
+			isa = PBXGroup;
+			children = (
+				1AFFB8B912B3D87E00C4DF55 /* DIKeyCtrl.h */,
+				1AFFB8BA12B3D87E00C4DF55 /* DIKeyCtrl.mm */,
+				1AFFB8BB12B3D87E00C4DF55 /* DIKeyDef.h */,
+				1AFFB8BC12B3D87E00C4DF55 /* DIMouseCtrl.h */,
+				1AFFB8BD12B3D87E00C4DF55 /* DIMouseCtrl.mm */,
+			);
+			name = DirectInput;
+			sourceTree = "<group>";
+		};
+		1A72247E12A9484100745FC9 /* SceneObject */ = {
+			isa = PBXGroup;
+			children = (
+				1AFFB8C812B3D87E00C4DF55 /* MTDashboard.h */,
+				1AFFB8C912B3D87E00C4DF55 /* MTDashboard.mm */,
+				1ABBE77414D39739004D97DF /* MTDashboardLive.h */,
+				1ABBE77514D39739004D97DF /* MTDashboardLive.mm */,
+				1AFFB8D412B3D87E00C4DF55 /* MTGridBox.h */,
+				1AFFB8D512B3D87E00C4DF55 /* MTGridBox.mm */,
+				1ABBE71314D38ED9004D97DF /* MTGridBoxLive.h */,
+				1ABBE71414D38ED9004D97DF /* MTGridBoxLive.mm */,
+				1AFFB8D812B3D87E00C4DF55 /* MTLogo.h */,
+				1AFFB8D912B3D87E00C4DF55 /* MTLogo.mm */,
+				1AFFB8E412B3D87E00C4DF55 /* MTNoteBox.h */,
+				1AFFB8E512B3D87E00C4DF55 /* MTNoteBox.mm */,
+				1AA19F5514D0394D002FD38F /* MTNoteBoxLive.h */,
+				1AA19F5614D0394D002FD38F /* MTNoteBoxLive.mm */,
+				1AFFB8E612B3D87E00C4DF55 /* MTNoteDesign.h */,
+				1AFFB8E712B3D87E00C4DF55 /* MTNoteDesign.mm */,
+				1AFFB8E812B3D87E00C4DF55 /* MTNotePitchBend.h */,
+				1AFFB8E912B3D87E00C4DF55 /* MTNotePitchBend.mm */,
+				1AFFB8EA12B3D87E00C4DF55 /* MTNoteRain.h */,
+				1AFFB8EB12B3D87E00C4DF55 /* MTNoteRain.mm */,
+				1AACB3CB14D6D3AF00BA19B0 /* MTNoteRainLive.h */,
+				1AACB3CC14D6D3AF00BA19B0 /* MTNoteRainLive.mm */,
+				1AFFB8EC12B3D87E00C4DF55 /* MTNoteRipple.h */,
+				1AFFB8ED12B3D87E00C4DF55 /* MTNoteRipple.mm */,
+				1AFFB8EF12B3D87E00C4DF55 /* MTPianoKeyboard.h */,
+				1AFFB8F012B3D87E00C4DF55 /* MTPianoKeyboard.mm */,
+				1AFFB8F112B3D87E00C4DF55 /* MTPianoKeyboardCtrl.h */,
+				1AFFB8F212B3D87E00C4DF55 /* MTPianoKeyboardCtrl.mm */,
+				1AA189F014D82EE100682B1A /* MTPianoKeyboardCtrlLive.h */,
+				1AA189F114D82EE100682B1A /* MTPianoKeyboardCtrlLive.mm */,
+				1AFFB8F312B3D87E00C4DF55 /* MTPianoKeyboardDesign.h */,
+				1AFFB8F412B3D87E00C4DF55 /* MTPianoKeyboardDesign.mm */,
+				1AFFB8F512B3D87E00C4DF55 /* MTPictBoard.h */,
+				1AFFB8F612B3D87E00C4DF55 /* MTPictBoard.mm */,
+				1AFFB90512B3D87E00C4DF55 /* MTStars.h */,
+				1AFFB90612B3D87E00C4DF55 /* MTStars.mm */,
+				1AFFB90D12B3D87E00C4DF55 /* MTTimeIndicator.h */,
+				1AFFB90E12B3D87E00C4DF55 /* MTTimeIndicator.mm */,
+			);
+			name = SceneObject;
+			sourceTree = "<group>";
+		};
+		1A72247F12A9485D00745FC9 /* SceneLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				1AFFB8CA12B3D87E00C4DF55 /* MTDynamicCaption.h */,
+				1AFFB8CB12B3D87E00C4DF55 /* MTDynamicCaption.mm */,
+				1AFFB8CE12B3D87E00C4DF55 /* MTFirstPersonCam.h */,
+				1AFFB8CF12B3D87E00C4DF55 /* MTFirstPersonCam.mm */,
+				1AFFB8D012B3D87E00C4DF55 /* MTFontTexture.h */,
+				1AFFB8D112B3D87E00C4DF55 /* MTFontTexture.mm */,
+				1AFFB8F912B3D87E00C4DF55 /* MTSceneMsg.h */,
+				1AFFB8FA12B3D87E00C4DF55 /* MTSceneMsg.mm */,
+				1AFFB8FB12B3D87E00C4DF55 /* MTSceneMsgQueue.h */,
+				1AFFB8FC12B3D87E00C4DF55 /* MTSceneMsgQueue.mm */,
+				1AFFB90712B3D87E00C4DF55 /* MTStaticCaption.h */,
+				1AFFB90812B3D87E00C4DF55 /* MTStaticCaption.mm */,
+			);
+			name = SceneLibrary;
+			sourceTree = "<group>";
+		};
+		1A72248012A948C200745FC9 /* Dialog */ = {
+			isa = PBXGroup;
+			children = (
+				1AFFB8C212B3D87E00C4DF55 /* MTAboutDlg.h */,
+				1AFFB8C312B3D87E00C4DF55 /* MTAboutDlg.mm */,
+				1AFFB8D212B3D87E00C4DF55 /* MTGraphicCfgDlg.h */,
+				1AFFB8D312B3D87E00C4DF55 /* MTGraphicCfgDlg.mm */,
+				1AFFB8D612B3D87E00C4DF55 /* MTHowToViewDlg.h */,
+				1AFFB8D712B3D87E00C4DF55 /* MTHowToViewDlg.mm */,
+				1AB0DBE114DE27C100B7C1E4 /* MTMIDIINCfgDlg.h */,
+				1AB0DBE214DE27C100B7C1E4 /* MTMIDIINCfgDlg.mm */,
+				1AFFB8E212B3D87E00C4DF55 /* MTMIDIOUTCfgDlg.h */,
+				1AFFB8E312B3D87E00C4DF55 /* MTMIDIOUTCfgDlg.mm */,
+				1AFFB90912B3D87E00C4DF55 /* MTStatusDlg.h */,
+				1AFFB90A12B3D87E00C4DF55 /* MTStatusDlg.mm */,
+				1AFFB90F12B3D87E00C4DF55 /* MTWindowSizeCfgDlg.h */,
+				1AFFB91012B3D87E00C4DF55 /* MTWindowSizeCfgDlg.mm */,
+			);
+			name = Dialog;
+			sourceTree = "<group>";
+		};
+		1A72248412A94A5100745FC9 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				1AFFB8C412B3D87E00C4DF55 /* MTCmdLineParser.h */,
+				1AFFB8C512B3D87E00C4DF55 /* MTCmdLineParser.mm */,
+				1AFFB8C612B3D87E00C4DF55 /* MTConfFile.h */,
+				1AFFB8C712B3D87E00C4DF55 /* MTConfFile.mm */,
+				1AFFB90B12B3D87E00C4DF55 /* MTStringEncodingList.h */,
+				1AFFB90C12B3D87E00C4DF55 /* MTStringEncodingList.mm */,
+				1AFFB8CC12B3D87E00C4DF55 /* MTFileOpenPanel.h */,
+				1AFFB8CD12B3D87E00C4DF55 /* MTFileOpenPanel.mm */,
+				1AFFB8DA12B3D87E00C4DF55 /* MTMachTime.h */,
+				1AFFB8DB12B3D87E00C4DF55 /* MTMachTime.mm */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		1AA8705F14CEDF6B0089E157 /* EventData */ = {
+			isa = PBXGroup;
+			children = (
+				1AFFB85C12B3D85800C4DF55 /* SMEvent.h */,
+				1AFFB85D12B3D85800C4DF55 /* SMEvent.mm */,
+				1AFFB85E12B3D85800C4DF55 /* SMEventMeta.h */,
+				1AFFB85F12B3D85800C4DF55 /* SMEventMeta.mm */,
+				1AFFB86012B3D85800C4DF55 /* SMEventMIDI.h */,
+				1AFFB86112B3D85800C4DF55 /* SMEventMIDI.mm */,
+				1AFFB86212B3D85800C4DF55 /* SMEventSysEx.h */,
+				1AFFB86312B3D85800C4DF55 /* SMEventSysEx.mm */,
+				1A674ADB14CC4BC600944A09 /* SMEventSysMsg.h */,
+				1A674ADC14CC4BC600944A09 /* SMEventSysMsg.mm */,
+			);
+			name = EventData;
+			sourceTree = "<group>";
+		};
+		1AA8706114CEDF740089E157 /* SequenceData */ = {
+			isa = PBXGroup;
+			children = (
+				1AFFB87E12B3D85800C4DF55 /* SMSimpleList.h */,
+				1AFFB87F12B3D85800C4DF55 /* SMSimpleList.mm */,
+				1AFFB85912B3D85800C4DF55 /* SMBarList.h */,
+				1AFFB85A12B3D85800C4DF55 /* SMBarList.mm */,
+				1AFFB87012B3D85800C4DF55 /* SMNoteList.h */,
+				1AFFB87112B3D85800C4DF55 /* SMNoteList.mm */,
+				1AFFB87612B3D85800C4DF55 /* SMPortList.h */,
+				1AFFB87712B3D85800C4DF55 /* SMPortList.mm */,
+				1AFFB88012B3D85800C4DF55 /* SMTrack.h */,
+				1AFFB88112B3D85800C4DF55 /* SMTrack.mm */,
+				1AFFB87A12B3D85800C4DF55 /* SMSeqData.h */,
+				1AFFB87B12B3D85800C4DF55 /* SMSeqData.mm */,
+			);
+			name = SequenceData;
+			sourceTree = "<group>";
+		};
+		1AA8706214CEDF880089E157 /* DeviceIO */ = {
+			isa = PBXGroup;
+			children = (
+				1AFFB85712B3D85800C4DF55 /* SMAppleDLSDevCtrl.h */,
+				1AFFB85812B3D85800C4DF55 /* SMAppleDLSDevCtrl.mm */,
+				1ABD49CD14E160CE0054C172 /* SMDevInfo.h */,
+				1ABD49CE14E160CE0054C172 /* SMDevInfo.mm */,
+				1AA327AC14C842120013A57D /* SMInDevCtrl.h */,
+				1AA327AD14C842120013A57D /* SMInDevCtrl.mm */,
+				1AFFB87212B3D85800C4DF55 /* SMOutDevCtrl.h */,
+				1AFFB87312B3D85800C4DF55 /* SMOutDevCtrl.mm */,
+				1AFFB87412B3D85800C4DF55 /* SMOutDevCtrlEx.h */,
+				1AFFB87512B3D85800C4DF55 /* SMOutDevCtrlEx.mm */,
+			);
+			name = DeviceIO;
+			sourceTree = "<group>";
+		};
+		1AA8706414CEE0E60089E157 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				1AFFB85B12B3D85800C4DF55 /* SMCommon.h */,
+				1AFFB86812B3D85800C4DF55 /* SMIDILib.h */,
+				1AFFB86912B3D85800C4DF55 /* SMIDILib.mm */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		1AA8706514CEE1060089E157 /* Processor */ = {
+			isa = PBXGroup;
+			children = (
+				1A674AED14CC512700944A09 /* SMEventWatcher.h */,
+				1A674AEE14CC512700944A09 /* SMEventWatcher.mm */,
+				1AFFB86412B3D85800C4DF55 /* SMFileReader.h */,
+				1AFFB86512B3D85800C4DF55 /* SMFileReader.mm */,
+				1AA327E514C84DCB0013A57D /* SMLiveMonitor.h */,
+				1AA327E614C84DCB0013A57D /* SMLiveMonitor.mm */,
+				1AFFB86A12B3D85800C4DF55 /* SMMsgParser.h */,
+				1AFFB86B12B3D85800C4DF55 /* SMMsgParser.mm */,
+				1AFFB86C12B3D85800C4DF55 /* SMMsgQueue.h */,
+				1AFFB86D12B3D85800C4DF55 /* SMMsgQueue.mm */,
+				1AFFB86E12B3D85800C4DF55 /* SMMsgTransmitter.h */,
+				1AFFB86F12B3D85800C4DF55 /* SMMsgTransmitter.mm */,
+				1AFFB87C12B3D85800C4DF55 /* SMSequencer.h */,
+				1AFFB87D12B3D85800C4DF55 /* SMSequencer.mm */,
+			);
+			name = Processor;
+			sourceTree = "<group>";
+		};
+		1AE63FA412993A9A00A829CC /* YNBaseLib */ = {
+			isa = PBXGroup;
+			children = (
+				1AFFB84412B3D84A00C4DF55 /* YNBaseLib.h */,
+				1AFFB84512B3D84A00C4DF55 /* YNConfFile.h */,
+				1AFFB84612B3D84A00C4DF55 /* YNConfFile.m */,
+				1AFFB84712B3D84A00C4DF55 /* YNErrCtrl.h */,
+				1AFFB84812B3D84A00C4DF55 /* YNErrCtrl.m */,
+				1AFFB84912B3D84A00C4DF55 /* YNErrInfo.h */,
+				1AFFB84A12B3D84A00C4DF55 /* YNErrInfo.m */,
+				1AFFB84B12B3D84A00C4DF55 /* YNINIFile.h */,
+				1AFFB84C12B3D84A00C4DF55 /* YNINIFile.m */,
+				1AFFB84D12B3D84A00C4DF55 /* YNPathUtil.h */,
+				1AFFB84E12B3D84A00C4DF55 /* YNPathUtil.m */,
+				1AFFB84F12B3D84A00C4DF55 /* YNUserConf.h */,
+				1AFFB85012B3D84A00C4DF55 /* YNUserConf.m */,
+			);
+			name = YNBaseLib;
+			sourceTree = "<group>";
+		};
+		1AE63FA712993ACD00A829CC /* SMIDILib */ = {
+			isa = PBXGroup;
+			children = (
+				1AA8706414CEE0E60089E157 /* Common */,
+				1AA8706214CEDF880089E157 /* DeviceIO */,
+				1AA8705F14CEDF6B0089E157 /* EventData */,
+				1AA8706114CEDF740089E157 /* SequenceData */,
+				1AA8706514CEE1060089E157 /* Processor */,
+			);
+			name = SMIDILib;
+			sourceTree = "<group>";
+		};
+		1AE63FA812993AD600A829CC /* OGLUtility */ = {
+			isa = PBXGroup;
+			children = (
+				1AB37E6E12C753EE001168EF /* OGLCamera.h */,
+				1AB37E6F12C753EE001168EF /* OGLCamera.mm */,
+				1AB37E7012C753EE001168EF /* OGLColorUtil.h */,
+				1AB37E7112C753EE001168EF /* OGLColorUtil.mm */,
+				1AB37E7212C753EE001168EF /* OGLDevice.h */,
+				1AB37E7312C753EE001168EF /* OGLDevice.mm */,
+				1AB37E7412C753EE001168EF /* OGLDirLight.h */,
+				1AB37E7512C753EE001168EF /* OGLDirLight.mm */,
+				1AB37E7612C753EE001168EF /* OGLH.h */,
+				1AB37E7712C753EE001168EF /* OGLH.mm */,
+				1AB37E7812C753EE001168EF /* OGLPrimitive.h */,
+				1AB37E7912C753EE001168EF /* OGLPrimitive.mm */,
+				1AB37E7A12C753EE001168EF /* OGLRenderer.h */,
+				1AB37E7B12C753EE001168EF /* OGLRenderer.mm */,
+				1AB37E7C12C753EE001168EF /* OGLRendererInfo.h */,
+				1AB37E7D12C753EE001168EF /* OGLRendererInfo.mm */,
+				1AB37E7E12C753EE001168EF /* OGLScene.h */,
+				1AB37E7F12C753EE001168EF /* OGLScene.mm */,
+				1AB37E8012C753EE001168EF /* OGLTexture.h */,
+				1AB37E8112C753EE001168EF /* OGLTexture.mm */,
+				1AB37E8212C753EE001168EF /* OGLTransMatrix.h */,
+				1AB37E8312C753EE001168EF /* OGLTransMatrix.mm */,
+				1AB37E8412C753EE001168EF /* OGLTypes.h */,
+				1AB37E8512C753EE001168EF /* OGLTypes.mm */,
+				1AB37E8612C753EE001168EF /* OGLUtil.h */,
+			);
+			name = OGLUtility;
+			sourceTree = "<group>";
+		};
+		1AE63FA912993AE100A829CC /* MIDITrail */ = {
+			isa = PBXGroup;
+			children = (
+				1A72247B12A947C300745FC9 /* AppMain */,
+				1A72248012A948C200745FC9 /* Dialog */,
+				1A72247D12A9480D00745FC9 /* DirectInput */,
+				1A72247C12A947D200745FC9 /* Scene */,
+				1A72247F12A9485D00745FC9 /* SceneLibrary */,
+				1A72247E12A9484100745FC9 /* SceneObject */,
+				1A72248412A94A5100745FC9 /* Utility */,
+			);
+			name = MIDITrail;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* MIDITrail */ = {
+			isa = PBXGroup;
+			children = (
+				1AE23C501861F5FA00592309 /* MIDITrail.entitlements */,
+				080E96DDFE201D6D7F000001 /* Sources */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				1AB37E9912C756DD001168EF /* LICENSE.txt */,
+				1AB37E9A12C756DD001168EF /* README.en.txt */,
+				1AB37E9B12C756DD001168EF /* README.ja.txt */,
+			);
+			name = MIDITrail;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3F00F4B6AF500CF3369 /* MIDITrail_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1AFFBA0D12B3E32000C4DF55 /* conf */,
+				1AFFBA1312B3E33200C4DF55 /* data */,
+				1AABD07612C73BFA0032D9EF /* doc */,
+				1A28D97018767396008E6EDA /* MIDITrail.iconset */,
+				1AD6B2B512BD444C00E23EDF /* MIDITrail.icns */,
+				8D1107310486CEB800E47090 /* MIDITrail-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1A722E2D12AD384000745FC9 /* AboutDlg.xib */,
+				1A72278B12AA7F4400745FC9 /* GraphicCfgDlg.xib */,
+				1A7227E912AA933300745FC9 /* HowToViewDlg.xib */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+				1AE641401299766900A829CC /* MainWindow.xib */,
+				1AB0DBD814DE20C700B7C1E4 /* MIDIINCfgDlg.xib */,
+				1A258F3012A684CE0098C86F /* MIDIOUTCfgDlg.xib */,
+				1A7229C812AB88B600745FC9 /* StatusDlg.xib */,
+				1A72255112AA07D200745FC9 /* WindowSizeCfgDlg.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* MIDITrail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "MIDITrail" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MIDITrail;
+			productInstallPath = "$(HOME)/Applications";
+			productName = MIDITrail;
+			productReference = 8D1107320486CEB800E47090 /* MIDITrail.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MIDITrail" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* MIDITrail */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* MIDITrail */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				1AE641421299766900A829CC /* MainWindow.xib in Resources */,
+				1A258F3212A684CE0098C86F /* MIDIOUTCfgDlg.xib in Resources */,
+				1A72255312AA07D200745FC9 /* WindowSizeCfgDlg.xib in Resources */,
+				1A72278D12AA7F4400745FC9 /* GraphicCfgDlg.xib in Resources */,
+				1A7227EB12AA933300745FC9 /* HowToViewDlg.xib in Resources */,
+				1A7229CA12AB88B600745FC9 /* StatusDlg.xib in Resources */,
+				1A722E2F12AD384000745FC9 /* AboutDlg.xib in Resources */,
+				1AFFBA1212B3E32000C4DF55 /* conf in Resources */,
+				1AFFBA1B12B3E33200C4DF55 /* data in Resources */,
+				1AD6B2B612BD444C00E23EDF /* MIDITrail.icns in Resources */,
+				1AABD08D12C73BFA0032D9EF /* doc in Resources */,
+				1AB0DBDA14DE20C700B7C1E4 /* MIDIINCfgDlg.xib in Resources */,
+				1A28D97118767397008E6EDA /* MIDITrail.iconset in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				1AFFB85112B3D84A00C4DF55 /* YNConfFile.m in Sources */,
+				1AFFB85212B3D84A00C4DF55 /* YNErrCtrl.m in Sources */,
+				1AFFB85312B3D84A00C4DF55 /* YNErrInfo.m in Sources */,
+				1AFFB85412B3D84A00C4DF55 /* YNINIFile.m in Sources */,
+				1AFFB85512B3D84A00C4DF55 /* YNPathUtil.m in Sources */,
+				1AFFB85612B3D84A00C4DF55 /* YNUserConf.m in Sources */,
+				1AFFB88212B3D85800C4DF55 /* SMAppleDLSDevCtrl.mm in Sources */,
+				1AFFB88312B3D85800C4DF55 /* SMBarList.mm in Sources */,
+				1AFFB88412B3D85800C4DF55 /* SMEvent.mm in Sources */,
+				1AFFB88512B3D85800C4DF55 /* SMEventMeta.mm in Sources */,
+				1AFFB88612B3D85800C4DF55 /* SMEventMIDI.mm in Sources */,
+				1AFFB88712B3D85800C4DF55 /* SMEventSysEx.mm in Sources */,
+				1AFFB88812B3D85800C4DF55 /* SMFileReader.mm in Sources */,
+				1AFFB88A12B3D85800C4DF55 /* SMIDILib.mm in Sources */,
+				1AFFB88B12B3D85800C4DF55 /* SMMsgParser.mm in Sources */,
+				1AFFB88C12B3D85800C4DF55 /* SMMsgQueue.mm in Sources */,
+				1AFFB88D12B3D85800C4DF55 /* SMMsgTransmitter.mm in Sources */,
+				1AFFB88E12B3D85800C4DF55 /* SMNoteList.mm in Sources */,
+				1AFFB88F12B3D85800C4DF55 /* SMOutDevCtrl.mm in Sources */,
+				1AFFB89012B3D85800C4DF55 /* SMOutDevCtrlEx.mm in Sources */,
+				1AFFB89112B3D85800C4DF55 /* SMPortList.mm in Sources */,
+				1AFFB89312B3D85800C4DF55 /* SMSeqData.mm in Sources */,
+				1AFFB89412B3D85800C4DF55 /* SMSequencer.mm in Sources */,
+				1AFFB89512B3D85800C4DF55 /* SMSimpleList.mm in Sources */,
+				1AFFB89612B3D85800C4DF55 /* SMTrack.mm in Sources */,
+				1AFFB91112B3D87E00C4DF55 /* DIKeyCtrl.mm in Sources */,
+				1AFFB91212B3D87E00C4DF55 /* DIMouseCtrl.mm in Sources */,
+				1AFFB91312B3D87E00C4DF55 /* MIDITrailApp.mm in Sources */,
+				1AFFB91412B3D87E00C4DF55 /* MIDITrailAppDelegate.mm in Sources */,
+				1AFFB91512B3D87E00C4DF55 /* MTAboutDlg.mm in Sources */,
+				1AFFB91612B3D87E00C4DF55 /* MTCmdLineParser.mm in Sources */,
+				1AFFB91712B3D87E00C4DF55 /* MTConfFile.mm in Sources */,
+				1AFFB91812B3D87E00C4DF55 /* MTDashboard.mm in Sources */,
+				1AFFB91912B3D87E00C4DF55 /* MTDynamicCaption.mm in Sources */,
+				1AFFB91A12B3D87E00C4DF55 /* MTFileOpenPanel.mm in Sources */,
+				1AFFB91B12B3D87E00C4DF55 /* MTFirstPersonCam.mm in Sources */,
+				1AFFB91C12B3D87E00C4DF55 /* MTFontTexture.mm in Sources */,
+				1AFFB91D12B3D87E00C4DF55 /* MTGraphicCfgDlg.mm in Sources */,
+				1AFFB91E12B3D87E00C4DF55 /* MTGridBox.mm in Sources */,
+				1AFFB91F12B3D87E00C4DF55 /* MTHowToViewDlg.mm in Sources */,
+				1AFFB92012B3D87E00C4DF55 /* MTLogo.mm in Sources */,
+				1AFFB92112B3D87E00C4DF55 /* MTMachTime.mm in Sources */,
+				1AFFB92212B3D87E00C4DF55 /* MTMainView.mm in Sources */,
+				1AFFB92312B3D87E00C4DF55 /* MTMainWindowCtrl.mm in Sources */,
+				1AFFB92412B3D87E00C4DF55 /* MTMenuCtrl.mm in Sources */,
+				1AFFB92512B3D87E00C4DF55 /* MTMIDIOUTCfgDlg.mm in Sources */,
+				1AFFB92612B3D87E00C4DF55 /* MTNoteBox.mm in Sources */,
+				1AFFB92712B3D87E00C4DF55 /* MTNoteDesign.mm in Sources */,
+				1AFFB92812B3D87E00C4DF55 /* MTNotePitchBend.mm in Sources */,
+				1AFFB92912B3D87E00C4DF55 /* MTNoteRain.mm in Sources */,
+				1AFFB92A12B3D87E00C4DF55 /* MTNoteRipple.mm in Sources */,
+				1AFFB92B12B3D87E00C4DF55 /* MTPianoKeyboard.mm in Sources */,
+				1AFFB92C12B3D87E00C4DF55 /* MTPianoKeyboardCtrl.mm in Sources */,
+				1AFFB92D12B3D87E00C4DF55 /* MTPianoKeyboardDesign.mm in Sources */,
+				1AFFB92E12B3D87E00C4DF55 /* MTPictBoard.mm in Sources */,
+				1AFFB92F12B3D87E00C4DF55 /* MTScene.mm in Sources */,
+				1AFFB93012B3D87E00C4DF55 /* MTSceneMsg.mm in Sources */,
+				1AFFB93112B3D87E00C4DF55 /* MTSceneMsgQueue.mm in Sources */,
+				1AFFB93212B3D87E00C4DF55 /* MTScenePianoRoll2D.mm in Sources */,
+				1AFFB93312B3D87E00C4DF55 /* MTScenePianoRoll3D.mm in Sources */,
+				1AFFB93412B3D87E00C4DF55 /* MTScenePianoRollRain.mm in Sources */,
+				1AFFB93512B3D87E00C4DF55 /* MTSceneTitle.mm in Sources */,
+				1AFFB93612B3D87E00C4DF55 /* MTStars.mm in Sources */,
+				1AFFB93712B3D87E00C4DF55 /* MTStaticCaption.mm in Sources */,
+				1AFFB93812B3D87E00C4DF55 /* MTStatusDlg.mm in Sources */,
+				1AFFB93912B3D87E00C4DF55 /* MTStringEncodingList.mm in Sources */,
+				1AFFB93A12B3D87E00C4DF55 /* MTTimeIndicator.mm in Sources */,
+				1AFFB93B12B3D87E00C4DF55 /* MTWindowSizeCfgDlg.mm in Sources */,
+				1AB37E8712C753EE001168EF /* OGLCamera.mm in Sources */,
+				1AB37E8812C753EE001168EF /* OGLColorUtil.mm in Sources */,
+				1AB37E8912C753EE001168EF /* OGLDevice.mm in Sources */,
+				1AB37E8A12C753EE001168EF /* OGLDirLight.mm in Sources */,
+				1AB37E8B12C753EE001168EF /* OGLH.mm in Sources */,
+				1AB37E8C12C753EE001168EF /* OGLPrimitive.mm in Sources */,
+				1AB37E8D12C753EE001168EF /* OGLRenderer.mm in Sources */,
+				1AB37E8E12C753EE001168EF /* OGLRendererInfo.mm in Sources */,
+				1AB37E8F12C753EE001168EF /* OGLScene.mm in Sources */,
+				1AB37E9012C753EE001168EF /* OGLTexture.mm in Sources */,
+				1AB37E9112C753EE001168EF /* OGLTransMatrix.mm in Sources */,
+				1AB37E9212C753EE001168EF /* OGLTypes.mm in Sources */,
+				1AA327AE14C842120013A57D /* SMInDevCtrl.mm in Sources */,
+				1AA327E714C84DCB0013A57D /* SMLiveMonitor.mm in Sources */,
+				1A674ADD14CC4BC600944A09 /* SMEventSysMsg.mm in Sources */,
+				1A674AEF14CC512700944A09 /* SMEventWatcher.mm in Sources */,
+				1AA7832A14CD9CA900EEA632 /* MTScenePianoRoll3DLive.mm in Sources */,
+				1AA870A514CEF2630089E157 /* MTScenePianoRoll2DLive.mm in Sources */,
+				1AA870C414CEF3890089E157 /* MTScenePianoRollRainLive.mm in Sources */,
+				1AA19F5714D0394D002FD38F /* MTNoteBoxLive.mm in Sources */,
+				1ABBE71514D38ED9004D97DF /* MTGridBoxLive.mm in Sources */,
+				1ABBE77614D39739004D97DF /* MTDashboardLive.mm in Sources */,
+				1AACB3CD14D6D3AF00BA19B0 /* MTNoteRainLive.mm in Sources */,
+				1AA189F214D82EE100682B1A /* MTPianoKeyboardCtrlLive.mm in Sources */,
+				1AB0DBE314DE27C100B7C1E4 /* MTMIDIINCfgDlg.mm in Sources */,
+				1ABD49CF14E160CE0054C172 /* SMDevInfo.mm in Sources */,
+				1AD21297185C3D9A009D1174 /* MTScenePianoRollRain2D.mm in Sources */,
+				1AD21298185C3D9A009D1174 /* MTScenePianoRollRain2DLive.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1A258F3012A684CE0098C86F /* MIDIOUTCfgDlg.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A258F3112A684CE0098C86F /* English */,
+			);
+			name = MIDIOUTCfgDlg.xib;
+			sourceTree = "<group>";
+		};
+		1A72255112AA07D200745FC9 /* WindowSizeCfgDlg.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A72255212AA07D200745FC9 /* English */,
+			);
+			name = WindowSizeCfgDlg.xib;
+			sourceTree = "<group>";
+		};
+		1A72278B12AA7F4400745FC9 /* GraphicCfgDlg.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A72278C12AA7F4400745FC9 /* English */,
+			);
+			name = GraphicCfgDlg.xib;
+			sourceTree = "<group>";
+		};
+		1A7227E912AA933300745FC9 /* HowToViewDlg.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A7227EA12AA933300745FC9 /* English */,
+			);
+			name = HowToViewDlg.xib;
+			sourceTree = "<group>";
+		};
+		1A7229C812AB88B600745FC9 /* StatusDlg.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A7229C912AB88B600745FC9 /* English */,
+			);
+			name = StatusDlg.xib;
+			sourceTree = "<group>";
+		};
+		1A722E2D12AD384000745FC9 /* AboutDlg.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A722E2E12AD384000745FC9 /* English */,
+			);
+			name = AboutDlg.xib;
+			sourceTree = "<group>";
+		};
+		1AB0DBD814DE20C700B7C1E4 /* MIDIINCfgDlg.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AB0DBD914DE20C700B7C1E4 /* English */,
+			);
+			name = MIDIINCfgDlg.xib;
+			sourceTree = "<group>";
+		};
+		1AE641401299766900A829CC /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AE641411299766900A829CC /* English */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MIDITrail_Prefix.pch;
+				INFOPLIST_FILE = "MIDITrail-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PRODUCT_NAME = MIDITrail;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MIDITrail_Prefix.pch;
+				INFOPLIST_FILE = "MIDITrail-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PRODUCT_NAME = MIDITrail;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.5;
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				SDKROOT = macosx10.5;
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "MIDITrail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MIDITrail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
